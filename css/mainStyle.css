@@ -103,9 +103,6 @@ nav{
     position: fixed;
     top: 100px;
     right: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(69, 69, 69);
-    text-decoration: none;
 }
 
 nav img{
@@ -165,6 +162,8 @@ section{
     }
     
     section{
+        max-width: 100%;
+        width: 90%;
         flex-direction: column;
         height: 100%;
         position: static;
@@ -172,10 +171,30 @@ section{
     }
 
     .sect_Container{
+        max-width: 100%;
+        width: 90%;
         margin: 10px auto 10px auto;        
     }
 
     .sect_Container img{
-        height: 150px;
+        max-width: 100%;
+        width: 90%;
+        height: fit-content;
     }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+    }
+
+    nav img{
+        width: 10px;
+        height: 10px;
+        margin-bottom: 0;
+    }
+
 }
