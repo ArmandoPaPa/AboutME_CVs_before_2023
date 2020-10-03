@@ -188,13 +188,13 @@ section{
         justify-content: center;
         align-items: center;
         position: fixed;
-        top: 0;
+        top: 10px;
     }
 
     nav img{
-        width: 10px;
-        height: 10px;
-        margin-bottom: 0;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 5px;
     }
 
 }
