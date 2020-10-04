@@ -1,5 +1,5 @@
 document.getElementById("jsPressStart").addEventListener("click", function(){
-    document.getElementById("jsStart").style.display="flex";
+    document.getElementById("jsStart").style.display="block";
     document.getElementById("jsProjects").style.display="none";
     document.getElementById("jsSoft").style.display="none";
     document.getElementById("jsEvents").style.display="none";
